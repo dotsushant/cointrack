@@ -1,0 +1,3 @@
+<div *ngIf="coinSetting$ | async as coinSetting">
+  <app-coin [symbol]="coinSetting.symbol"></app-coin>
+</div>
